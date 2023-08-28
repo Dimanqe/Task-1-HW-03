@@ -21,7 +21,7 @@ namespace Task_1__HW_03_
 
             try
             {
-                CleanFolder(folderPath, TimeSpan.FromMinutes(1));
+                CleanFolder(folderPath, TimeSpan.FromMinutes(30));
                 Console.WriteLine("Очистка завершена.");
             }
             catch (UnauthorizedAccessException)
